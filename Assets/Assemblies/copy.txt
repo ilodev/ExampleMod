@@ -78,4 +78,3 @@ rocketstation_Data/Managed/UniTask.TextMeshPro.dll
 rocketstation_Data/Managed/Unity.Collections.dll
 rocketstation_Data/Managed/UnityEngine.AnimationModule.dll
 rocketstation_Data/Managed/UnityEngine.dll
-rocketstation_Data/Managed/UnityEngine.UI.dll
