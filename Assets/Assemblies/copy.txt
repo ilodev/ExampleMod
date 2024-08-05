@@ -23,6 +23,7 @@ rocketstation_Data/Managed/netstandard.dll
 rocketstation_Data/Managed/Newtonsoft.Json.dll
 rocketstation_Data/Managed/Novell.Directory.Ldap.dll
 rocketstation_Data/Managed/Ookii.Dialogs.dll
+rocketstation_Data/Managed/Obi.dll
 rocketstation_Data/Managed/RG.ImGui.dll
 rocketstation_Data/Managed/RG.ImGui.Unity.dll
 rocketstation_Data/Managed/RW.RocketNet.dll
