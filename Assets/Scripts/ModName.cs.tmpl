@@ -1,0 +1,16 @@
+using System;
+using ##MOD_NAMESPACE##;
+using HarmonyLib;
+using StationeersMods.Interface;
+
+public class ##MOD_NAME## : ModBehaviour
+{
+    public override void OnLoaded(ContentHandler contentHandler)
+    {
+        UnityEngine.Debug.Log("##MOD_NAME## says: Hello World!");
+        Harmony harmony = new Harmony("##MOD_NAME##");
+        PrefabPatch.prefabs = contentHandler.prefabs;
+        harmony.PatchAll();
+        UnityEngine.Debug.Log("##MOD_NAME## Loaded with " + contentHandler.prefabs.Count + " prefab(s)");
+    }
+}
