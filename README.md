@@ -1,10 +1,14 @@
 Run the init script first
+
 init.bat for Windows
+
 init.sh for Linux
 
 This will pre-initialize the project files with your own mod name and namespace.
+
 Keep the mod naming to values like: ExampleMod, TimeDateMod, etc. following Class name conventions.
 https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-classes-structs-and-interfaces
+
 Keep the namespace to values like: Creator.Example, Jixxed.TimeDate, etc. following namespace conventions.
 https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-namespaces
 
