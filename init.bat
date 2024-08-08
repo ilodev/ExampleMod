@@ -85,6 +85,6 @@ if not exist "%input_file%" (
 del "%input_file%"
 
 echo Initialization complete!
-del init.bat
 del init.sh
+del init.bat
 endlocal

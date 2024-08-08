@@ -5,15 +5,12 @@ using HarmonyLib;
 using StationeersMods.Interface;
 using UnityEngine;
 using UnityEngine.Rendering;
-
 namespace ##MOD_NAMESPACE##
 {
     [HarmonyPatch]
     public class PrefabPatch
     {
         public static ReadOnlyCollection<GameObject> prefabs { get; set; }
-       
-       
         [HarmonyPatch(typeof(Prefab), "LoadAll")]
         public static void Prefix()
         {
@@ -23,9 +20,7 @@ namespace ##MOD_NAMESPACE##
                 foreach (var gameObject in prefabs)
                 {
                     Thing thing = gameObject.GetComponent<Thing>();
-       
                     // Additional patching goes here, like setting references to materials(colors) or tools from the game
-       
                     if (thing != null)
                     {
                         Debug.Log(gameObject.name + " added to WorldManager");
