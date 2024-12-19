@@ -1,4 +1,5 @@
 BepInEx/core/0Harmony.dll
+BepInEx/core/BepInEx.dll
 BepInEx/core/MonoMod.RuntimeDetour.dll
 BepInEx/core/MonoMod.Utils.dll
 rocketstation_Data/Managed/Accessibility.dll
