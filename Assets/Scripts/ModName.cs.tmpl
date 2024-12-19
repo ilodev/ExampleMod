@@ -3,11 +3,21 @@ using ##MOD_NAMESPACE##;
 using HarmonyLib;
 using StationeersMods.Interface;
 
+[StationeersMod("##MOD_NAME##","##MOD_NAME## [StationeersMods]","0.2.4657.21547.1")]
 public class ##MOD_NAME## : ModBehaviour
 {
+    // private ConfigEntry<bool> configBool;
+    
     public override void OnLoaded(ContentHandler contentHandler)
     {
         UnityEngine.Debug.Log("##MOD_NAME## says: Hello World!");
+        
+        //Config example
+        // configBool = Config.Bind("Input",
+        //     "Boolean",
+        //     true,
+        //     "Boolean description");
+        
         Harmony harmony = new Harmony("##MOD_NAME##");
         PrefabPatch.prefabs = contentHandler.prefabs;
         harmony.PatchAll();
