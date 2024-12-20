@@ -1,5 +1,4 @@
 BepInEx/core/0Harmony.dll
-BepInEx/core/BepInEx.dll
 BepInEx/core/MonoMod.RuntimeDetour.dll
 BepInEx/core/MonoMod.Utils.dll
 rocketstation_Data/Managed/Accessibility.dll
@@ -53,8 +52,6 @@ rocketstation_Data/Managed/System.dll
 rocketstation_Data/Managed/System.Drawing.Design.dll
 rocketstation_Data/Managed/System.Drawing.dll
 rocketstation_Data/Managed/System.EnterpriseServices.dll
-rocketstation_Data/Managed/System.IdentityModel.dll
-rocketstation_Data/Managed/System.IdentityModel.Selectors.dll
 rocketstation_Data/Managed/System.IO.Compression.dll
 rocketstation_Data/Managed/System.IO.Compression.FileSystem.dll
 rocketstation_Data/Managed/System.Net.Http.dll
@@ -78,5 +75,5 @@ rocketstation_Data/Managed/UniTask.DOTween.dll
 rocketstation_Data/Managed/UniTask.Linq.dll
 rocketstation_Data/Managed/UniTask.TextMeshPro.dll
 rocketstation_Data/Managed/Unity.Collections.dll
+rocketstation_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll
 rocketstation_Data/Managed/UnityEngine.AnimationModule.dll
-rocketstation_Data/Managed/UnityEngine.dll
