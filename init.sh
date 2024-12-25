@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 
 modname="##MOD_NAME##"
 namespace="##MOD_NAMESPACE##"
