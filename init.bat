@@ -39,7 +39,7 @@ if not exist "%input_file%" (
         setlocal enabledelayedexpansion
         set "line=!line:%modname%=%replacename%!"
         set "line=!line:%namespace%=%replacenamespace%!"
-        echo !line!
+        echo.!line!
         endlocal
     )
 ) > "%output_file%"
