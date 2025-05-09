@@ -15,4 +15,4 @@ https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-nam
 A unique namespace prevent conflicts with other mods and the game itself.
 
 After that follow instructions here:
-https://github.com/jixxed/StationeersMods/blob/main/doc/CREATE-MOD-UNITY.md
+https://github.com/ilodev/StationeersMods/blob/main/doc/CREATE-MOD-UNITY.md
